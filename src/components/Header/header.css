@@ -9,6 +9,10 @@
   background-color: #13001b;
 }
 
+.logoSmall {
+  display: none;
+}
+
 .dropDownMenu {
   position: relative;
   padding: 10px;
@@ -26,7 +30,7 @@
 .dropDownContent {
   display: none;
   position: absolute;
-  top: 40px;
+  top: 39px;
   left: 0px;
   width: 100%;
   padding-top:10px;
@@ -49,4 +53,14 @@
   padding: 5px 10px;
   text-decoration: none;
   color: white;
+}
+
+@media (max-width:900px) {
+  .dropDownMenu {
+    font-size: 0.8rem;
+  }
+  .logo {
+    height: 18px;
+    width: 202px;
+  }
 }

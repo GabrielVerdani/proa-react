@@ -8,7 +8,7 @@ function Header() {
       <Logo className="logo" />
 
       <div className="dropDownMenu">
-        <h3>Minhas emoções <DropDownIcon /></h3>
+        <h3>Emoções <DropDownIcon /></h3>
 
         <div className="dropDownContent">
           <ul>

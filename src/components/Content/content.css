@@ -41,6 +41,31 @@
 .emotions {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 20px;
   background-image: linear-gradient(to top, #FF00B8, #AD00FF);
+}
+
+@media (max-width:1200px) {
+  .emotions {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:900px) {
+  .intro {
+    grid-template-columns: 1fr;
+  }
+
+  .introText {
+    padding: 30px;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .introText a {
+    margin-top: 40px;
+  }
+
+  .introText a {
+    font-size: 1rem;
+  }
 }

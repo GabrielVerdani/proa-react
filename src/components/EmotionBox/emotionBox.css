@@ -1,6 +1,7 @@
 .emotionBox {
   display: grid;
   grid-template-columns: 210px 1fr;
+  align-items: center;
 
   padding: 10px;
   margin: 40px;
@@ -20,10 +21,24 @@
 }
 
 .emotionContent {
-  padding: 20px;
+  padding: 0 10px;
 }
 
 .emotionContent .title {
   text-transform: capitalize;
+}
+
+@media (max-width:900px) {
+  .emotionBox {
+    margin: 20px 10px;
+    font-size: 0.8rem;
+
+    grid-template-columns: 110px 1fr;
+  }
+
+  .emotionBox img {
+    width: 100px;
+    height: 100px;
+  }
 }
 

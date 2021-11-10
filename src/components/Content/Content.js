@@ -21,11 +21,11 @@ function Content() {
           <h1>Sobre Emoções</h1>
           <p>Emoções e sentimentos, sejam eles bons ou ruins, são muito importantes pois são o que compõe a nossa personalidade e o nosso jeito de ser.</p>
 
-          <a href="#vergonha">Minhas principais emoções</a>
+          <a href="#emotions">Minhas principais emoções</a>
         </div>
         <img className="introImage" src={heroImage} alt="" />
       </div>
-      <div className="emotions">
+      <div className="emotions" id="emotions">
         <EmotionBox imageUrl={vergonha} title="Vergonha" id="vergonha" description="Por ser uma pessoa muito mais quieta, evitando ao máximo interações sociais, quando sou elogiado ou mencionado em público, a sensação de vergonha me aparece." />
         <EmotionBox imageUrl={frustracao} title="Frustração" id="frustracao" description="Apesar de ter bastante paciência e determinação, se eu não conseguir terminar algo que comecei, me sinto bastante frustrado e acabo nunca mais tocando naquele assunto novamente." />
         <EmotionBox imageUrl={confusao} title="Confusão" id="confusao" description="Diversos momentos eu me vejo confuso sobre o que eu sinto, o que eu quero para meu futuro, o que eu quero ser, de quem eu gosto, do que fazer... Confuso." />
