@@ -1,0 +1,29 @@
+.emotionBox {
+  display: grid;
+  grid-template-columns: 210px 1fr;
+
+  padding: 10px;
+  margin: 40px;
+
+  background-image: linear-gradient(to right, #13001b, #13000d);
+  border-radius: 10px;
+
+  color: white;
+  font-size: 1.2rem;
+}
+
+.emotionBox img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 10px 0 0 10px;
+}
+
+.emotionContent {
+  padding: 20px;
+}
+
+.emotionContent .title {
+  text-transform: capitalize;
+}
+

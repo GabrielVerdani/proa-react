@@ -1,0 +1,46 @@
+.intro {
+  min-height: calc(100vh - 60px);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.introText {
+  font-size: 1.5rem;
+  padding: 80px;
+}
+
+.introText h1 {
+  color: #FF00B8;
+  margin-bottom: 30px;
+}
+
+.introText a {
+  display: inline-block;
+  margin-top: 80px;
+  padding: 15px;
+  background-image: linear-gradient(to right, #FF00B8, #AD00FF);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  
+  color: white;
+}
+
+.introText button:hover {
+  filter: brightness(0.9);
+}
+
+.introImage {
+  width: 100%;
+}
+
+.emotions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  background-image: linear-gradient(to top, #FF00B8, #AD00FF);
+}

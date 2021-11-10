@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 60px;
+  padding: 0 20px;
+
+  background-color: #13001b;
+}
+
+.dropDownMenu {
+  position: relative;
+  padding: 10px;
+  background-image: linear-gradient(to right, #FF00B8, #AD00FF);
+  border-radius: 10px;
+  cursor: pointer;
+
+  color: white;
+}
+
+.dropDownMenu:hover .dropDownContent {
+  display: block;
+}
+
+.dropDownContent {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  width: 100%;
+  padding-top:10px;
+  border-radius: 0 0 10px 10px;
+}
+
+.dropDownContent ul {
+  list-style: none;
+  background-color: #13001b;
+}
+
+.dropDownContent ul li:hover,
+.dropDownContent ul li:hover a{
+  background-color: #FF00B8;
+  color: white;
+}
+
+.dropDownContent ul li a {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+}

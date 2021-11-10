@@ -1,7 +1,9 @@
-export default function App() {
+import Index from "./views/Index/Index"
+
+function App() {
   return (
-    <div>
-      Hello World
-    </div>
+    <Index />
   );
 }
+
+export default App;
